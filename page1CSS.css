@@ -110,6 +110,21 @@ footer > p {
     margin-bottom: 10px;
 }
 
+.project4 {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.landscape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /*Page 3 Work Experience Page CSS*/
 
 #page3 {
