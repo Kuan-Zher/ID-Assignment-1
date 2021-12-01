@@ -24,7 +24,7 @@ footer > p {
     text-align: center;
 }
 
-#contact {
+#contacts {
     font-size: 25px;
     text-align: center;
     width: 33%;
@@ -48,6 +48,58 @@ footer > p {
     font-size: 25px;
 }
 
+
+/*Page 5 Contact Me Page CSS*/
+
+#page5 {
+    background-image: url('background-image-5.jfif');
+}
+
+input[type="submit"] {
+    text-align: center;
+    width: 60px;
+    margin: auto;
+}
+
+
+input[type="text"] {
+    font-size:20px;
+    font-weight: normal;
+}
+
+
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#page5 > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color:burlywood;
+    margin: auto;
+}
+
+#page5 > div > form {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    margin: auto;
+    border: 5px solid;
+    padding: 2%;
+}
+
+#page5 > div > form > div {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 3%;
+}
+
+
+
 /*Page 4 Projects Page CSS*/
 
 #page4 {
@@ -68,6 +120,7 @@ footer > p {
 }
 
 #page4 > article > p {
+    color:aliceblue;
     display: flex;
     align-items: center;
     border-radius: 25px; 
@@ -77,7 +130,7 @@ footer > p {
     width: 50%;
     font-size: 25px;
     text-align: center;
-    background: rgba(0,128,128, 0.8);
+    background: rgba(0,100,128, 0.8);
 }
 
 

@@ -1,6 +1,6 @@
 
-function links() {
-    alert("You are being redirected to another site. Click OK to confirm.");
+function submission() {
+    alert("Submission Received. Click OK to close.");
 }
 
 
