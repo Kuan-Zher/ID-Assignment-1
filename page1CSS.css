@@ -1,10 +1,13 @@
 
 /*Header CSS*/
+
+/*Centering the text and giving it some padding*/
 #head {
     text-align: center;
     padding: 10px;
 }
 
+/*Changing the background color of the header*/
 header {
     background-color: beige;
 }
@@ -13,7 +16,83 @@ body {
     background-color:gray;
 }
 
+
+/*Navigation Bar CSS*/
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:burlywood;
+}
+
+.navigation > li {
+    float: left;
+}
+
+.navigation > li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.navigation {
+    display: block;
+    padding: 8px;
+    background-color:#808080;
+}
+
 /*Footer CSS*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:rosybrown;
+}
+
+footer > p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+#linkedIn {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid;
+}
+/*
 footer {
     display: flex;
     background-color:rosybrown;
@@ -47,7 +126,7 @@ footer > p {
     font-weight: bold;
     font-size: 25px;
 }
-
+*/
 
 /*Page 5 Contact Me Page CSS*/
 
@@ -55,17 +134,7 @@ footer > p {
     background-image: url('background-image-5.jfif');
 }
 
-input[type="submit"] {
-    text-align: center;
-    width: 60px;
-    margin: auto;
-}
 
-
-input[type="text"] {
-    font-size:20px;
-    font-weight: normal;
-}
 
 
 
@@ -203,7 +272,7 @@ label {
 
 .historyBox {
     border-radius: 25px;
-    width: 50%;
+    width: 70%;
     background-color: white;
     margin: auto;
 
@@ -239,11 +308,119 @@ label {
     margin: auto;
 }
 
-div {
-    display: flex;
+@media screen and (min-width: 977px) {
+    #page1 > div {
+        display: flex;
+    }
+
+    input[type="submit"] {
+        text-align: center;
+        width: 60px;
+        margin: auto;
+    }
+    
+    
+    input[type="text"] {
+        font-size:15px;
+        font-weight: normal;
+    }
 }
 
-div > p {
+
+
+@media screen and (max-width: 576px) {
+    #page1 > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project1 {
+        display: flex;
+        position: relative;
+        border-radius: 32%;
+        width: 300px;
+        height: 300px;
+        padding: 5%;
+    }
+
+    #page4 > article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #page4 > article > p {
+        color:aliceblue;
+        display: flex;
+        align-items: center;
+        border-radius: 25px; 
+        padding: 5%;
+        margin-left: 10px;
+        margin-right: 20px;
+        width: 50%;
+        font-size: 25px;
+        text-align: center;
+        background: rgba(0,100,128, 0.8);
+    }
+    
+    input[type="submit"] {
+        text-align: center;
+        width: 60px;
+        margin: auto;
+    }
+    
+    
+    input[type="text"] {
+        font-size:12px;
+        font-weight: normal;
+    }
+    
+    footer {
+        display: flex;
+        background-color:rosybrown;
+    }
+    
+    footer > p {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #contacts {
+        font-size: 15px;
+        text-align: center;
+        width: 30%;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin: auto;
+    }
+    
+    #email {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        font-size: 15px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin: auto;
+    }
+    
+    #linkedIn {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin: auto;
+    }
+    
+}
+
+
+#page1 > div > p {
     border-radius: 25px; 
     padding: 5%;
     margin-left: 10px;
@@ -253,6 +430,7 @@ div > p {
     text-align: center;
     background: rgba(200,150,150, 0.8);
 }
+
 
 
 .description{
@@ -272,35 +450,6 @@ div > p {
 
 
 
-ul.navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:burlywood;
-}
-
-.navigation > li {
-    float: left;
-}
-
-.navigation > li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navigation > li a:hover {
-    background-color: dodgerblue;
-}
-
-.navigation {
-    display: block;
-    padding: 8px;
-    background-color:#808080;
-}
 
 #image {
     display: flex;
