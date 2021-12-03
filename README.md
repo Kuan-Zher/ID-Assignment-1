@@ -19,9 +19,13 @@ The wireframe which i designed for this assignment can be found with the rest of
 **Existing Features**
 
 Feature 1: LinkedIn link at the footer of the page. This linkedIn link will redirect users to the LinkedIn website where they will be able to view my profile and all my personal details
+
 Feature 2: A navigation bar where the user can select which content they would like to look at. For example, if they wanted to view my education history, they can click on the tab "Education History". This would take them to the page which displays all my education history. The tabs will also be highlighted when the user hovers their cursor over the tab. This would allow the user to accurately see which tab they are clicking on and to add some interactivity to the website.
+
 Feature 3: Showing a shadow of the box/container when the user hovers their cursor over the box. 
+
 Feature 4: A form which the users can submit by filling up the form with the correct format. For example they have to input an email address with the correct format to be able to submit the form. 
+
 Feature 5: An alert which will pop up on the screen when the user submits the form, letting them know that their form has been submitted.
 
 **Features Left to Implement**
