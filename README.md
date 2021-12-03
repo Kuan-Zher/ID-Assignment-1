@@ -34,3 +34,38 @@ Some potential features which could be implemented is to make the images of the 
 
 # Technologies Used
 
+- HTML (https://html.com/)
+    - The assignment uses html to structure the content which I want to display
+- CSS (https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - I used cascading style sheets to help to style the content which I displayed using html and to make the content look more presentable with more color.
+- Javascript (https://www.javascript.com/)
+    - Javascript was used to help set up some interactions and event handling when the user did a specific task and to make the website more interactive.
+- W3Schools (https://www.w3schools.com/)
+    - This website was used to help me in creating my website.
+
+
+# Testing
+
+1. Contact me form:
+    i. Go to the "Contact Me" Page
+   ii. Try to submit the form without any inputs and verify that the form prompts you to fill in the required fields.
+  iii. Try to submit the form with the email input in an invalid format and verify that the webpage prompts you to match the requested format.
+   iv. Try to submit the form with no comments and verify that the form still submits.
+    v. Try to submit the form with the name, email, and phone number fill in correctly and verify that the webpage alerts you with a prompt that your submission has been received.
+2. History boxes:
+    i. Go to the "Education History" Page
+   ii. Try to hover your mouse over any of the boxes with the content inside and verify that there is a shadow being created when the mouse is hovering over the box.
+  iii. Go to the "Work Experience" Page
+   iv. Try to hover the mouse over the box and verify that there is a shadow created for this box as well.
+
+The website looks and works the same across different browsers and the content is properly formatted when the screen size is changed to mobile
+
+# Credits
+
+**Media**
+
+The photos used in this site were obtained from https://wallpaperaccess.com/background, https://www.designtrends.com/graphic-web/patterns/repetitive.html, https://www.istockphoto.com/vector/repetitive-modern-graphic-vip-design-texture-repeat-white-vector-rich-deco-pattern-gm1254097380-366453190, https://www.tspweb.com/key/%E6%98%9F%E7%9B%98%E4%B8%AD%E7%9A%84%E7%A6%8F%E7%82%B9%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D.html, https://www.pinterest.com/pin/771100767429250495/
+
+**Acknowledgements**
+
+I received inspiration for this project my going online to research for what most personal portfolios or resumes would look like.
