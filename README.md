@@ -50,11 +50,11 @@ Some potential features which could be implemented is to make the images of the 
 
     i. Go to the "Contact Me" Page
 
-   ii. Try to submit the form without any inputs and verify that the form prompts you to fill in the required fields.
+    ii. Try to submit the form without any inputs and verify that the form prompts you to fill in the required fields.
 
-  iii. Try to submit the form with the email input in an invalid format and verify that the webpage prompts you to match the requested format.
+    iii. Try to submit the form with the email input in an invalid format and verify that the webpage prompts you to match the requested format.
 
-   iv. Try to submit the form with no comments and verify that the form still submits.
+    iv. Try to submit the form with no comments and verify that the form still submits.
 
     v. Try to submit the form with the name, email, and phone number fill in correctly and verify that the webpage alerts you with a prompt that your submission has been received.
 
@@ -62,11 +62,11 @@ Some potential features which could be implemented is to make the images of the 
 
     i. Go to the "Education History" Page
 
-   ii. Try to hover your mouse over any of the boxes with the content inside and verify that there is a shadow being created when the mouse is hovering over the box.
+    ii. Try to hover your mouse over any of the boxes with the content inside and verify that there is a shadow being created when the mouse is hovering over the box.
 
-  iii. Go to the "Work Experience" Page
+    iii. Go to the "Work Experience" Page
 
-   iv. Try to hover the mouse over the box and verify that there is a shadow created for this box as well.
+    iv. Try to hover the mouse over the box and verify that there is a shadow created for this box as well.
 
 The website looks and works the same across different browsers and the content is properly formatted when the screen size is changed to mobile
 
