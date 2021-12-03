@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Setting the language of the document to english-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="page1CSS.css" rel="stylesheet" type="text/css" />
-    <title>Ho Kuan Zher Resume</title>
-    <script src="myjavascript.js"></script>
+    <title>Ho Kuan Zher Resume</title> <!--Setting the title of the webpage-->
+    <script src="myjavascript.js"></script> <!--Setting the javascript document to reference-->
 </head>
 
 <body>
-    <header>
-        <h1 id="head">Contact Me</h1>
-        <ul class="navigation">
+    <header> <!--Putting the navigation bar and page name in the header container-->
+        <h1 class="head">Contact Me</h1>
+        <ul class="navigation"> <!--Making the navigation bar using a list and classing it under navigation for styling-->
+            <!--Adding in all the different tabs and having event triggered interactions and linking the tabs to the proper html documents-->
             <li><a href="index.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Home</a></li>
             <li><a href="EducationHistory.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Education History</a></li>
             <li><a href="WorkExperience.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Work Experience</a></li>
@@ -19,36 +20,41 @@
             <li><a href="ContactMe.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Contact Me</a></li>
         </ul>
     </header>
-    <section id="page5">
+    <section id="page5"> <!--Sectioning the page for styling the background later on-->
         <br><br>
         <div>
-            <h2>Contact Details</h2>
-            <form onsubmit="submission()">
+            <h2>Contact Details</h2> <!--Creating the header for the form to display what the form is for-->
+            <form onsubmit="submission()"> <!--Using the onsubmit event to display the alert when the form is submitted-->
                 <div>
-                    <label for="name">Name: </label>
+                    <label for="name">Name: </label> <!--Labelling what the input field is for-->
+                    <!--Making an input field for the user to enter their details with a placeholder for ease of understanding-->
                     <input type="text" id="name" name="name" placeholder="Enter your full name here" required>
                 </div>
                 <div>
-                    <label for="contact">Contact Number: </label>
+                    <label for="contact">Contact Number: </label> <!--Labelling what the input field is for-->
+                    <!--Making an input field for the user to enter their details with a placeholder for ease of understanding-->
                     <input type="text" id="contact" name="contact" placeholder="Enter your contact number here" required>
                 </div>
                 <div>
-                    <label for="email">Email Address: </label>
+                    <label for="email">Email Address: </label> <!--Labelling what the input field is for-->
+                    <!--Making an input field for the user to enter their details with a placeholder for ease of understanding-->
                     <input type="text" id="emailAddress" name="email" placeholder="Enter your email address here" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 </div>
                 <div>
-                    <label for="comments">Comments: </label>
+                    <label for="comments">Comments: </label> <!--Labelling what the input field is for-->
+                    <!--Making an input field for the user to enter their details with a placeholder for ease of understanding-->
                     <textarea name="comments" placeholder="Enter any comments here"></textarea>
                 </div>
-                <input type="submit">
+                <input type="submit"> <!--Creating a submit button to submit the form when the user is done filling in their details-->
             </form>
             <br><br><br>
         </div>
         <br><br>
     </section>
-    <footer>
+    <footer> <!--Making a footer section to contain other data like email, phone number and linkedIn content-->
         <p id="contacts">Contact Number: 12345678</p>
         <p id="email">Email Address: s10223870@connect.np.edu.sg</p>
+        <!--Linking the linkedIn section of the footer to the website with my profile on display-->
         <p id="linkedIn">LinkedIn: <a href="https://www.linkedin.com/in/ho-kuan-zher-575b05210/">Ho Kuan Zher</a></p>
     </footer>
 </body>

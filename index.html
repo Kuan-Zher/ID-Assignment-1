@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Setting the language of the document to english-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="page1CSS.css" rel="stylesheet" type="text/css" />
-    <title>Ho Kuan Zher Resume</title>
-    <script src="myjavascript.js"></script>
+    <title>Ho Kuan Zher Resume</title> <!--Setting the title of the webpage-->
+    <script src="myjavascript.js"></script> <!--Setting the javascript document to reference-->
 </head>
 
 <body>
-    <header>
-        <h1 id="head">Home</h1>
-        <ul class="navigation">
+    <header> <!--Putting the navigation bar and page name in the header container-->
+        <h1 class="head">Home</h1> <!--Setting the id of the web page name to head for styling in css-->
+        <ul class="navigation"> <!--Making the navigation bar using a list and classing it under navigation for styling-->
+            <!--Adding in all the different tabs and having event triggered interactions and linking the tabs to the proper html documents-->
             <li><a href="index.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Home</a></li>
             <li><a href="EducationHistory.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Education History</a></li>
             <li><a href="WorkExperience.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Work Experience</a></li>
@@ -19,12 +20,12 @@
             <li><a href="ContactMe.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Contact Me</a></li>
         </ul>
     </header>
-    <section id="page1">
+    <section id="page1"> <!--Sectioning the page and giving it an id for styling for this specific section -->
         <br><br>
-        <img id="image" src="images/me.jpeg" alt="Image of Ho Kuan Zher">
-        <h2>About Me</h2>
-        <div>
-            <ul class="description">
+        <img id="image" src="images/me.jpeg" alt="Image of Ho Kuan Zher"> <!--Inserting a portrait image of myself and styling it later on-->
+        <h2>About Me</h2> <!--Text to display what this part is about-->
+        <div> <!--Inserting the list and paragraph into a container to flex later-->
+            <ul class="description"> <!--using an unordered list to display the details of myself-->
                 <li>Name: Ho Kuan Zher</li>
                 <li>Age: 17</li>
                 <li>Nationality: Singaporean</li>
@@ -35,7 +36,7 @@
                 <li>Works well in teams</li>
                 <li>Knows basic programming language</li>
             </ul>
-            <p>
+            <p> <!--using a paragraph to provide a brief introduction about myself-->
                 My name is Ho Kuan Zher and I am currently a student studying Information
                 Technology in the School of Infocomm Technology at Ngee Ann Polytechnic.
                 I am a friendly and hardworking individual and I enjoy working with others.
@@ -45,9 +46,9 @@
                 with Python and C#.
             </p>
         </div>
-        <h2>Skills</h2>
-        <div class="skills">
-            <ul class="skillList">
+        <h2>Skills</h2> <!--text to display what this part is about-->
+        <div class="skills"> <!--Putting the list in a container to style-->
+            <ul class="skillList"> <!--Using an unordered list to display the skills-->
                 <li>Communication</li>
                 <li>Teamwork</li>
                 <li>Programming</li>
@@ -59,9 +60,10 @@
         </div>
         <br><br>
     </section>
-    <footer>
+    <footer> <!--Making a footer section to contain other data like email, phone number and linkedIn content-->
         <p id="contacts">Contact Number: 12345678</p>
         <p id="email">Email Address: s10223870@connect.np.edu.sg</p>
+        <!--Linking the linkedIn section of the footer to the website with my profile on display-->
         <p id="linkedIn">LinkedIn: <a href="https://www.linkedin.com/in/ho-kuan-zher-575b05210/">Ho Kuan Zher</a></p> 
     </footer>
     

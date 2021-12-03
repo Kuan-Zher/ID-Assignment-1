@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Setting the language of the document to english-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="page1CSS.css" rel="stylesheet" type="text/css" />
-    <title>Ho Kuan Zher Resume</title>
-    <script src="myjavascript.js"></script>
+    <title>Ho Kuan Zher Resume</title> <!--Setting the title of the webpage-->
+    <script src="myjavascript.js"></script> <!--Setting the javascript document to reference-->
 </head>
 
 <body>
-    <header>
-        <h1 id="head">My Education History</h1>
-        <ul class="navigation">
+    <header> <!--Putting the navigation bar and page name in the header container-->
+        <h1 class="head">My Education History</h1> <!--Setting the id of the web page name to head for styling in css-->
+        <ul class="navigation"> <!--Making the navigation bar using a list and classing it under navigation for styling-->
+            <!--Adding in all the different tabs and having event triggered interactions and linking the tabs to the proper html documents-->
             <li><a href="index.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Home</a></li>
             <li><a href="EducationHistory.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Education History</a></li>
             <li><a href="WorkExperience.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Work Experience</a></li>
@@ -19,31 +20,32 @@
             <li><a href="ContactMe.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Contact Me</a></li>
         </ul>
     </header>
-    <section id="page2">
+    <section id="page2"> <!--Sectioning the page for styling the background later on-->
         <br>
+        <!--Creating an article container and using a mouse over event to create a shadow on the box using javascript-->
         <article class="historyBox" onmouseover="hoverHistory(this)" onmouseout="notHoverHistory(this)">
             <h1>Kong Hwa School (Primary)</h1>
-            <ul class="history">
+            <ul class="history"> <!--Using a list to display content-->
                 <li>Spent all my 6 years of primary education here</li>
                 <li>Learnt to communicate with other people better</li>
                 <li>Participated in overseas student exchange programme to Shandong, China</li>
                 <li>Graduated with my PSLE results</li>
             </ul>
         </article>
-       
+        <!--Creating an article container and using a mouse over event to create a shadow on the box using javascript-->
         <article class="historyBox" onmouseover="hoverHistory(this)" onmouseout="notHoverHistory(this)">
             <h1>Chung Cheng High School Main (Secondary)</h1>
-            <ul class="history">
+            <ul class="history"> <!--Using a list to display content-->
                 <li>Spent my first two years of secondary education here</li>
                 <li>Participated in a learning journey to Sungei Buloh Wetland Reserve to learn more 
                     about the nature and the animals there</li>
                 <li>Participated in multiple interclass games and activities</li>
             </ul>
         </article>
-
+        <!--Creating an article container and using a mouse over event to create a shadow on the box using javascript-->
         <article class="historyBox" onmouseover="hoverHistory(this)" onmouseout="notHoverHistory(this)">
             <h1>Singapore International School Hong Kong (Secondary)</h1>
-            <ul class="history">
+            <ul class="history"> <!--Using a list to display content-->
                 <li>Continued my last two years of secondary education here</li>
                 <li>Participated in enrichment trip to Vietnam to explore the culture and living conditions</li>
                 <li>Participated in multiple camps and activities to bond with my school mates</li>
@@ -52,9 +54,10 @@
         </article>
         <br><br>
     </section>
-    <footer>
+    <footer> <!--Making a footer section to contain other data like email, phone number and linkedIn content-->
         <p id="contacts">Contact Number: 12345678</p>
         <p id="email">Email Address: s10223870@connect.np.edu.sg</p>
+        <!--Linking the linkedIn section of the footer to the website with my profile on display-->
         <p id="linkedIn">LinkedIn: <a href="https://www.linkedin.com/in/ho-kuan-zher-575b05210/">Ho Kuan Zher</a></p>
     </footer>
     

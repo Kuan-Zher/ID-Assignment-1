@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Setting the language of the document to english-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="page1CSS.css" rel="stylesheet" type="text/css" />
-    <title>Ho Kuan Zher Resume</title>
-    <script src="myjavascript.js"></script>
+    <title>Ho Kuan Zher Resume</title> <!--Setting the title of the webpage-->
+    <script src="myjavascript.js"></script> <!--Setting the javascript document to reference-->
 </head>
 
 <body>
-    <header>
-        <h1 id="head">My Work Experience</h1>
-        <ul class="navigation">
+    <header> <!--Putting the navigation bar and page name in the header container-->
+        <h1 class="head">My Work Experience</h1> <!--Setting the id of the web page name to head for styling in css-->
+        <ul class="navigation"> <!--Making the navigation bar using a list and classing it under navigation for styling-->
+            <!--Adding in all the different tabs and having event triggered interactions and linking the tabs to the proper html documents-->
             <li><a href="index.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Home</a></li>
             <li><a href="EducationHistory.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Education History</a></li>
             <li><a href="WorkExperience.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Work Experience</a></li>
@@ -19,8 +20,9 @@
             <li><a href="ContactMe.html" onmouseover="hoverHighlight(this)" onmouseout="notHoverHighlight(this)">Contact Me</a></li>
         </ul>
     </header>
-    <section id="page3">
+    <section id="page3"> <!--Sectioning the page for styling the background later on-->
         <br>
+        <!--Using another article container with the same styling as the previous containers on the education history page-->
         <article class="historyBox" onmouseover="hoverHistory(this)" onmouseout="notHoverHistory(this)">
             <h2>Popular Holdings Cashier</h2>
             <p class="history">Worked at a Popular Bookstore branch as a cashier for 2 months to get some working experience 
@@ -34,9 +36,10 @@
             </p>
         </article>
         <br><br>
-        <footer>
+        <footer> <!--Making a footer section to contain other data like email, phone number and linkedIn content-->
             <p id="contacts">Contact Number: 12345678</p>
             <p id="email">Email Address: s10223870@connect.np.edu.sg</p>
+            <!--Linking the linkedIn section of the footer to the website with my profile on display-->
             <p id="linkedIn">LinkedIn: <a href="https://www.linkedin.com/in/ho-kuan-zher-575b05210/">Ho Kuan Zher</a></p>
         </footer>
     </section>
